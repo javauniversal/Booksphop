@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "29640671036",
+    "firebase_url": "https://universidad-magdalena.firebaseio.com",
+    "project_id": "universidad-magdalena",
+    "storage_bucket": "universidad-magdalena.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29640671036:android:9cbc7e4d4557561eefa839",
+        "android_client_info": {
+          "package_name": "com.fiiss.bookshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29640671036-a2d4iofojuoqluokrocp3gtshmhr9etu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKfvo49WEboVmuOtVSHkhBfsTSsKJRHXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29640671036-a2d4iofojuoqluokrocp3gtshmhr9etu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29640671036:android:6a6a99d4bd52bb6defa839",
+        "android_client_info": {
+          "package_name": "com.fiiss.operationslist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29640671036-a2d4iofojuoqluokrocp3gtshmhr9etu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKfvo49WEboVmuOtVSHkhBfsTSsKJRHXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29640671036-a2d4iofojuoqluokrocp3gtshmhr9etu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
