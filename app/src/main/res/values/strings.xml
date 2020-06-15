@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Bookshop</string>
     <string name="titulo">Titulo</string>
     <string name="p_titulo">Titulo: %1s</string>
@@ -6,5 +6,7 @@
     <string name="p_descripcion">Descripción: %1s</string>
     <string name="p_precio">Precio: $%1s</string>
     <string name="p_estrella">Estrellas: %1s</string>
-    <string name="p_autor">Autor: %1s</string>
+    <string name="p_autor" tools:ignore="Typos">Autor: %1s</string>
+    <string name="guardar">Guardar</string>
+    <string name="cancelar">Cancelar</string>
 </resources>

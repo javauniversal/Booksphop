@@ -1,6 +1,8 @@
 package com.fiiss.bookshop.dashboard.model;
 
-public class Book {
+import java.io.Serializable;
+
+public class Book implements Serializable {
 
     private String uid;
     private String titulo;

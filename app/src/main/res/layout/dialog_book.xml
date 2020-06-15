@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#55000000">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:id="@+id/contentDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/icons"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/titulo"
+            android:textColor="@color/primary_text"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgLibro"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/app_name"
+            tools:srcCompat="@drawable/img_add" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Titulo" />
+
+            <EditText
+                android:id="@+id/editAddTitulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_edittext"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:padding="9dp" />
+
+            <TextView
+                android:id="@+id/txtAddAutor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="Autor" />
+
+            <EditText
+                android:id="@+id/editAddAutor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_edittext"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:padding="9dp" />
+
+            <TextView
+                android:id="@+id/txtAddCalif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="Calificación" />
+
+            <EditText
+                android:id="@+id/editAddCalif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_edittext"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:padding="9dp" />
+
+            <TextView
+                android:id="@+id/txtAddISBN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="ISBN" />
+
+            <EditText
+                android:id="@+id/editAddISBN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_edittext"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:padding="9dp" />
+
+            <TextView
+                android:id="@+id/txtAddDescip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="Descripcón" />
+
+            <EditText
+                android:id="@+id/editAddDescrip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_edittext"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:padding="9dp" />
+
+            <TextView
+                android:id="@+id/txtAddPrecio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:text="Precio" />
+
+            <EditText
+                android:id="@+id/editAddPreci"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_edittext"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:padding="9dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="right"
+            android:orientation="horizontal"
+            tools:ignore="RtlHardcoded">
+
+            <Button
+                android:id="@+id/btnCancelar"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cancelar" />
+
+            <Button
+                android:id="@+id/btnBuardar"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guardar" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
