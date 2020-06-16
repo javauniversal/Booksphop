@@ -20,4 +20,9 @@
     <string name="cancel">Cancel</string>
     <string name="title_dialog">Alert</string>
     <string name="content_message">Are you sure you want to delete the book?</string>
+    <string name="isbn">ISBN</string>
+    <string name="autor">Author</string>
+    <string name="calificaci_n">Rating</string>
+    <string name="descripc_n">Description</string>
+    <string name="precio">Price</string>
 </resources>
