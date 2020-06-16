@@ -23,4 +23,13 @@
         <item name="android:windowIsFloating">false</item>
     </style>
 
+    <!-- Splash Screen theme. -->
+    <style name="customDialog" parent="android:Theme.DeviceDefault.Dialog">
+        <item name="DialogTitleAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="DialogTitleText">Espere un momento</item>
+        <item name="DialogSpotColor">?attr/colorAccent</item>
+        <item name="DialogSpotCount">4</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
 </resources>

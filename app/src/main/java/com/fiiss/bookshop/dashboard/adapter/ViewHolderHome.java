@@ -12,6 +12,7 @@ import com.fiiss.bookshop.R;
 public class ViewHolderHome extends RecyclerView.ViewHolder {
 
     public ImageView imgLibro;
+    public ImageView delete;
     public TextView txtTitulo;
     public TextView txtCalificacion;
     public TextView txtIsbn;
@@ -29,6 +30,7 @@ public class ViewHolderHome extends RecyclerView.ViewHolder {
         txtAutor = itemView.findViewById(R.id.txtAutor);
         txtDescripcion = itemView.findViewById(R.id.txtDescripcion);
         txtPrecio = itemView.findViewById(R.id.txtPrecio);
+        delete = itemView.findViewById(R.id.delete);
 
         contentCardView = itemView.findViewById(R.id.contentCardView);
     }

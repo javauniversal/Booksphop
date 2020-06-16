@@ -110,12 +110,9 @@ public class HomeRecycler extends RecyclerView.Adapter<ViewHolderHome> {
         holder.txtCalificacion.setText(String.format(viewHome.getString(R.string.p_estrella), book.getCalificacion()));
 
         Glide.with(viewHome).load(book.getUrlImagen()).into(holder.imgLibro);
-        holder.contentCardView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                viewHome.routerActivity(book);
-            }
-        });
+        holder.contentCardView.setOnClickListener(v -> viewHome.routerActivity(book));
+
+        holder.delete.setOnClickListener(v -> viewHome.deleteBook(book));
 
     }
 
