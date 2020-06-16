@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Bookshop</string>
+    <string name="titulo">Titulo</string>
+    <string name="p_titulo">Titulo: %1s</string>
+    <string name="p_isbn">ISBN: %1s</string>
+    <string name="p_descripcion">Descripción: %1s</string>
+    <string name="p_precio">Precio: $%1s</string>
+    <string name="p_estrella">Estrellas: %1s</string>
+    <string name="p_autor" tools:ignore="Typos">Autor: %1s</string>
+    <string name="guardar">Guardar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="select_imagen">Seleccione una imagen</string>
+    <string name="file_require">Campo requerido</string>
+    <string name="duplicate">El isbn ya existe en la base de datos</string>
+    <string name="file_imagen_require">Seleccione una imagen para el libro</string>
+    <string name="file_error_imagen">Error al subir la imagen</string>
+    <string name="file_add_ok">El libro guardo correctamente</string>
+    <string name="ok">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="title_dialog">Alerta</string>
+    <string name="content_message">¿Esta seguro de eliminar el libro?</string>
+</resources>

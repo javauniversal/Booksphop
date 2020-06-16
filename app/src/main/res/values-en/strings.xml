@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bookshop</string>
+    <string name="titulo">Title</string>
+    <string name="p_titulo">Title: %1s</string>
+    <string name="p_isbn">ISBN: %1s</string>
+    <string name="p_descripcion">Description: %1s</string>
+    <string name="p_precio">Price: $%1s</string>
+    <string name="p_estrella">Stars:  %1s</string>
+    <string name="p_autor">Author: %1s</string>
+    <string name="guardar">Save</string>
+    <string name="cancelar">Cancel</string>
+    <string name="select_imagen">Select an image</string>
+    <string name="file_require">Required field</string>
+    <string name="duplicate">The isbn already exists in the database</string>
+    <string name="file_imagen_require">Select an image for the book</string>
+    <string name="file_error_imagen">Error when uploading the image</string>
+    <string name="file_add_ok">The book I keep correctly</string>
+    <string name="ok">Accept</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_dialog">Alert</string>
+    <string name="content_message">Are you sure you want to delete the book?</string>
+</resources>
