@@ -43,7 +43,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Titulo" />
+                android:text="@string/titulo" />
 
             <EditText
                 android:id="@+id/editAddTitulo"
@@ -52,14 +52,15 @@
                 android:background="@drawable/background_edittext"
                 android:importantForAutofill="no"
                 android:inputType="text"
-                android:padding="9dp" />
+                android:padding="9dp"
+                tools:ignore="LabelFor" />
 
             <TextView
                 android:id="@+id/txtAddAutor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="9dp"
-                android:text="Autor" />
+                android:text="@string/autor" />
 
             <EditText
                 android:id="@+id/editAddAutor"
@@ -68,14 +69,15 @@
                 android:background="@drawable/background_edittext"
                 android:importantForAutofill="no"
                 android:inputType="text"
-                android:padding="9dp" />
+                android:padding="9dp"
+                tools:ignore="LabelFor" />
 
             <TextView
                 android:id="@+id/txtAddCalif"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="9dp"
-                android:text="Calificación" />
+                android:text="@string/calificaci_n" />
 
             <EditText
                 android:id="@+id/editAddCalif"
@@ -85,7 +87,8 @@
                 android:background="@drawable/background_edittext"
                 android:importantForAutofill="no"
                 android:inputType="number"
-                android:padding="9dp" />
+                android:padding="9dp"
+                tools:ignore="LabelFor" />
 
             <TextView
                 android:id="@+id/txtAddISBN"
@@ -93,7 +96,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="9dp"
-                android:text="ISBN" />
+                android:text="@string/isbn"
+                tools:ignore="TextViewEdits" />
 
             <EditText
                 android:id="@+id/editAddISBN"
@@ -102,14 +106,15 @@
                 android:background="@drawable/background_edittext"
                 android:importantForAutofill="no"
                 android:inputType="number"
-                android:padding="9dp" />
+                android:padding="9dp"
+                tools:ignore="LabelFor" />
 
             <TextView
                 android:id="@+id/txtAddDescip"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="9dp"
-                android:text="Descripcón" />
+                android:text="@string/descripc_n" />
 
             <EditText
                 android:id="@+id/editAddDescrip"
@@ -118,14 +123,15 @@
                 android:background="@drawable/background_edittext"
                 android:importantForAutofill="no"
                 android:inputType="text"
-                android:padding="9dp" />
+                android:padding="9dp"
+                tools:ignore="LabelFor" />
 
             <TextView
                 android:id="@+id/txtAddPrecio"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="9dp"
-                android:text="Precio" />
+                android:text="@string/precio" />
 
             <EditText
                 android:id="@+id/editAddPreci"
@@ -134,7 +140,8 @@
                 android:background="@drawable/background_edittext"
                 android:importantForAutofill="no"
                 android:inputType="number"
-                android:padding="9dp" />
+                android:padding="9dp"
+                tools:ignore="LabelFor" />
 
         </LinearLayout>
 

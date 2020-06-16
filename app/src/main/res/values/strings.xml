@@ -19,4 +19,9 @@
     <string name="cancel">Cancelar</string>
     <string name="title_dialog">Alerta</string>
     <string name="content_message">¿Esta seguro de eliminar el libro?</string>
+    <string name="autor">Autor</string>
+    <string name="calificaci_n">Calificación</string>
+    <string name="isbn">ISBN</string>
+    <string name="descripc_n">Descripcón</string>
+    <string name="precio">Precio</string>
 </resources>
